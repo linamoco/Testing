@@ -1,0 +1,23 @@
+Название ошибки: Логин кириллицей можно ввести при регистрации 
+нового пользователя при помощи автозаполнения
+Окружение:
+Версия:
+Приоритет:
+Автор: 
+Ответственный:
+Шаги воспроизведения:
+1. Перейти на страницу регистрации нового пользователя
+2. Кликнуть двойным щелчком в поле "Логин"
+3. Выбрать имя кириллицей из предложенного списка для автозаполнения
+Фактический результат: Появляется подтверждение корректного ввода
+Ожидаемый результат: Появилось сообщение о неверном вводе
+--------------------------------------------------------------------
+Issue Title: The login can be entered in Cyrillic using an autocomplete in the “login” field when registering a new user
+
+Steps to reproduce: 
+1.Go to the new user registration page 
+2.Double-click on the “Логин” field 
+3.Select a name of Cyrillic from the proposed list for autocomplete
+
+Actual result: The confirmation of valid input appears 
+Expected result: The message on invalid input appears 
